@@ -1,0 +1,131 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+    /* background-image: -webkit-linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); */
+ background-image: -moz-linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+    
+}
+.navcontainer{
+   min-height: 80px;
+    width: 98vw;
+    /* background-color: rgb(114, 114, 176); */
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+
+}
+nav{
+    width: 100%;
+}
+#navlist{
+    width: 98%;
+    padding: 15px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    list-style: none;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navlogo{
+    font-size: 3rem;
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#navitem{
+    display: flex;
+    gap: 30px;
+    padding-right: 2rem;
+   
+}
+.footerbox{
+    background-image: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: -moz-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: -o-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    min-height: 30px;
+    text-align: center;
+   
+}
+.footerbox p{
+    color: azure;
+    font-size: 1.8rem;
+
+}
+.contentbox{
+    width: 70%;
+    margin: auto;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    
+    box-shadow: 2px 2px 35px black;
+
+}
+.item{
+  display: flex; 
+ flex-direction: column;
+ justify-content: space-between;
+ /* align-items: center; */
+ margin: 20px;
+ gap: 50px;
+
+}
+.leftbox img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    transition: all 1s 0s linear;
+    box-shadow:2px 2px 30px black;
+    
+    
+}
+.leftbox  :hover{
+    transform: scale(1.2);
+
+}
+
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ingbox{
+    font-size: 1.4rem;
+}
+.recipibox{
+    font-size: 1.2rem;
+}
+.rightbox img{
+    transition: all 1s 0 linear;
+    box-shadow: 2px 2px 28px black;
+}
+.rightbox img :hover{
+    transform: scale(1.2);
+
+}
+.processbox{
+    font-size: 1.3rem;
+
+}
+.ing2{
+    font-size: 1.5rem;
+}
